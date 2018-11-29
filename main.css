@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+
+}
+#bluebox { 
+    border: 2px;
+    border-color: blue;
+    border-style: solid; 
+    flex-basis: 50%;
+    flex-direction: row;  
+    justify-content: space-between;
+}
+
+#redbox {
+    border: 2px;
+    border-color: red;
+    border-style: solid;
+    flex-basis: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#message {
+    padding: 10px;
+}
